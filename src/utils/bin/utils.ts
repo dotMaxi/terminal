@@ -74,7 +74,7 @@ export const banner = (args?: string[]): string => {
 ██║ ╚═╝ ██║     ██║   ██║      ██║      ██║  ███████╗
 ╚═╝     ╚═╝     ╚═╝   ╚═╝      ╚═╝      ╚═╝  ╚══════╝ v${packageJson.version}
 
-Type 'help' to see list of available commands.
+Escribe 'help' para ver los comandos disponibles.
 
 --
 The project is open-source 🎉 type 'repo' to check out the repository.
