@@ -4,7 +4,7 @@ import * as bin from './index';
 export const help = async (args: string[]): Promise<string> => {
   const commands = Object.keys(bin).sort().join(', ');
 
-  return `Available commands:\n${commands}\n\n[tab]\t trigger completion.\n[ctrl+l] clear terminal.\n[ctrl+c] cancel command.`;
+  return `Comandos disponibles:\n${commands}\n\n[tab]\t autocompletar.\n[ctrl+l] limpiar terminal.\n[ctrl+c] cancelar comando.`;
 };
 
 export const echo = async (args: string[]): Promise<string> => {
